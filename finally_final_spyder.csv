@@ -1,0 +1,88 @@
+﻿S.No.,Question,Difficulty,Answer,Distractor 1,Distractor 2,Distractor 3,Distractor 4
+1,"x = 'Today is a nice day'
+y = x[:9] + 'not ' + x[9:]
+print(x)",Medium,Today is a nice day,TypeError,Today is a nice day,SyntaxError,Today is not a nice day
+2,"str1=""Information""
+print(str1[2:8])",Easy,format,format,formatio,orma,ormat
+3,"print(""xyyzxyzxzxyy"".count('xyy', 2, 11))",Medium,0,2,0,1,Error
+4,"string = ""Know Program"" print(string[:5] + ""Python"")",Easy,Know Python,Know,Know Program,Know Python,None of these
+5,"print(""abc. DEF"".capitalize())",Easy,Abc. def,Abc. def,abc. def,Abc. Def,ABC. DEF
+6,"x = 123
+for i in x: 
+    print(i, end="" "") ",Medium,Error,1 2 3,1 1 1,Error,No Output
+7,"print(""a""+""bc"")",Easy,abc,a,bc,abc,bca
+8,"str1 = 'Welcome'
+print (str1[:6] + ' PYnative')",Easy,Welcome PYnative,WelcomePYnative,WelcomPYnative,Welcom PYnative,WelcomePYnative
+9,"str1 = ""Hello, World!""
+print(str1[::-1])",Easy,"""!dlroW ,olleH""","""Hello, World!""","""!dlroW ,olleH""","""dlroW ,olleH!""","""World, Hello!"""
+10,Which of the following are true:,Medium,"s[:] == s,s[::-1][::-1] == s",s[::-1][::-1] is s,s[:] is s,s[:] == s,s[::-1][::-1] == s
+11,"print('a@ 1,'.islower())",Easy,TRUE,TRUE,FALSE,None,Error
+12,You want to create a bytes object consisting of five null (0x00) bytes. All of the following will work except one. Select the one that doesn’t work:,Difficult,"bytes(0, 0, 0, 0, 0)",bytes(5),"bytes(0, 0, 0, 0, 0)","bytes('\x00\x00\x00\x00\x00', 'utf-8')",bytes([0] * 5)
+13,"print(""abc. DEF"".capitalize())",Easy,Abc. def,Abc. def,abc. def,Abc. Def,ABC. DEF
+14,Which of the following is not a Python legal string operation?,Easy,‘abc’.lower(),‘abc’ + ‘abc’,‘abc’ * 3, ‘abc’ + 3,‘abc’.lower()
+15,To concatenate two strings to a third what statements are applicable?,Easy,s3 = s1.add(s2),s3 = s1 . S2,s3 = s1 * s2,s3 = s1.add(s2),s3 = s1.add(s2)
+16,"s = ""python rocks""
+print(s[3])",Easy,h,t,h,c,"Error, you cannot use the [ ] operator with a string."
+17,"a = ""This is a string""
+print a ",Easy,Error,a,"""This is a string""",This is a string,Error
+18,"print(""a""+""bc"")",Easy,abc,a,bc,abc,bca
+19,"str1 = 'Welcome'
+print (str1[:6] + ' PYnative')",Easy,Welcome PYnative,WelcomePYnative,WelcomPYnative,Welcom PYnative,WelcomePYnative
+20,"a = ""This is a string""
+print(a.count(""i""))",Easy,3,1,2,3,4
+21,"Which of the following code corresponds to the amount of characters in the following string variable?        string = ""I love coding!""",Easy,len(string),count(string),len(string),int(string),length(string)
+22,"print(""abcd""[2:])",Medium,cd,a,ab,cd,dc
+23,"str1 = 'hello'
+ str2 = ','
+str3 = 'world'
+print(str1[-1:])",Easy,0,0,h,hello,elloh
+24,The output of executing string.ascii_letters can also be achieved by:,Medium,string.ascii_lowercase+string.ascii_uppercase,string.ascii_lowercase_string.digits,string.ascii_lowercase+string.ascii_uppercase,string.letters,string.lowercase_string.uppercase
+25,"str1 = ""Hello, World!""
+print(str1[::2])",Difficult,"Hll, Wrld!","Hlo, Wrd!","ello, Worl!","Hll, Wrld!","Hello, World!"
+26,"str1 = ""Hello, World!""
+print(str1[-7:-1])",Difficult,""", Worl""",World,Hello,""", Worl""","lo, Wo"
+27,"What error will occur when you execute the following code?
+
+MANGO = APPLE  ",Medium,NameError,NameError,SyntaxError,TypeError,ValueError
+28,"print(print(print(""javatpoint"")))    ",Medium, javatpoint None None, javatpoint None None,None None javatpoint,None javatpoint None,Javatpoint
+29,"What does the following code snippet do?   str1 = ""Hello, World!""
+print(str1.isalpha())",Easy,Checks if the string contains only alphabetical characters,Checks if the string contains only alphabetical characters,Checks if the string contains only numeric characters,Checks if the string contains only alphanumeric characters,Checks if the string contains whitespace characters
+30,"s = ""python rocks""
+print(s[7:11] * 3)",Medium,rockrockrock,rockrockrock, rock rock rock,rocksrocksrocks,TypeError
+31,"str1 = 'Welcome'
+print(str1*2)",Easy,WelcomeWelcome,WelcomeWelcome,TypeError unsupported operand type(s),Welcome,No Output
+32,"str = ""my name is James bond"";
+print (str.capitalize())",Easy,My name is james bond,My Name Is James Bond,TypeError: unsupported operand type(s) for * or pow(): 'str' and 'int',My name is james bond,No Output
+33,"animal = ""dog""
+print(""animal "" + ""animal"")",Easy,animal animal,animal animal,animalanimal,animal dog,animaldog
+34,"text = ""Hello, World!""
+print(text[::-1])",Difficult,"!dlroW ,olleH'","!dlroW ,olleH '","Hello, World!'"," !dlroW ,olleH'","!dlroW ,olleH'"
+35,Which of the following methods is used to check if a string starts with a specified substring in Python?,Easy,startswith(),is_startswith(),starts(),startswith(),is_start()
+36,Which of the following methods is used to format a string with placeholders for values in Python?,Easy,format(),format(),replace(),insert(),concat()
+37,Which of the following methods is used to find the index of the first occurrence of a substring in a string in Python?,Easy,find(),index(),find(),search(),locate()
+38,"text = ""Hello, World!""
+print(len(text))",Easy,12,11,12,13,14
+39,"text = ""Hello, World!""
+print(text.split()[::-1])",Difficult,"['Hello,', 'World!']","['World!', 'Hello,']","['World!', 'Hello,', '']","['Hello,', 'World!']","['Hello,', 'World!', '']"
+40,Which of the following methods is used to capitalize the first character of a string in Python?,Easy,capitalize(),upper(),title(),casefold(),capitalize()
+41,print(ord('foo')),Medium,It raises an exception,102 111 111,It raises an exception,102,324
+42,s = 'foo-bar-baz' Which of the following expressions evaluates to a string equal to s,Difficult,'-'.join(s.split('-')),'-'.join(s.partition('-')),-'.join(s.split('-')),s.center(15),s.upper().lower()
+43,list((b'abcde' + 'fghi')[3:6]),Medium,It raises an exception,b'def',"[100, 101, 102]","[b'd', b'e', b'f']",It raises an exception
+44,"Which of the following will result in an error?  str1=""python""",Easy," str1[1]=""x"""," str1[1]=""x""",print(str1[2]),print(str1[0:9]),Both (b) and ©
+45,"x = ['xy', 'yz']  
+for i in a:  
+    i.upper()  
+print(a)  ",Medium,"['xy', 'yz']","['xy', 'yz']","['XY', 'YZ']","[None, None]",None of these
+46,"example = ""snow world""    print(""%s"" % example[4:7])",Easy,wo,wo,sn,rl,world
+47,"str1 = ""Python Programming""
+print(str1.count(""o""))",Easy,2,0,1,2,3
+48,"str1 = ""Python""
+print(str1[-2])",Easy,h,h,o,n,t
+49,"str = ""My salary is 7000"";
+print(str.isalnum())",Easy,FALSE,TRUE,FALSE,Error,No output
+50,"animal = ""dog""
+print(""animal"" + animal)",Medium,animaldog,dogdog,dog dog,animal dog,animaldog
+51,"text = ""   Hello, World!   ""
+print(text.strip())",Medium,"Hello, World!'","Hello, World!'","Hello, World! ' "," Hello, World!' "," Hello, World! '"
+52,"text = ""Hello, World!""
+print(text.endswith(""!""))",Easy,TRUE,TRUE,FALSE,None,Error
